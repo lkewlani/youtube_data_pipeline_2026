@@ -11,10 +11,9 @@ yt_pipeline_bronze_dev
 yt_pipeline_silver_dev
 yt_pipeline_gold_dev
 
-
+Setting up ETL jobs 
 --bronze_database yt_pipeline_bronze_dev
 --bronze_table raw_statistics
 --silver_bucket yt-data-pipeline-ap-south-1-silver
 --silver_database yt_pipeline_silver_dev
 --silver_table cleaned_statistics
-
